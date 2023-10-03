@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Craft Beer Week 2023</title>
+    <link rel="icon" type="image/x-icon" href="./logo_set-02.png">
+
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+<body>
+    <img class="header-img" src="./logo_set-05-crop.png" alt="header-img">
+
+    <div class="shadow">
+        <img class="cover-img" src="./banner-01-scaled.jpg" alt="cover-img">
+    </div>
+
+    <button class="view-btn" onclick="window.location.href='https://groupb.beer/thaicraftbeerweek2023/';">view</button>
+</body>
+<style>
+    body {
+        height: 100vh;
+        background: #010101;
+        background: radial-gradient(at center, #010101, #FDC402);
+    }
+    .header-img {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+        z-index: 1;
+    }
+    .shadow {   
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        z-index: 0;
+    }
+    .shadow:before {
+        content:'';
+        position:absolute;
+        width:100%;
+        height:100%;
+        -moz-box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,1);
+        -webkit-box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,1);
+        box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,1);
+    }
+    .cover-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+        @media only screen and (max-width: 1920px) {
+            height: 502px;
+        }
+    }
+    .view-btn {
+        width: 240px;
+        height: 58px;
+        background: #000000;
+        border: unset !important;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: fantasy;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: #fdc302 !important;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        z-index: 2;
+    }
+</style>
+</html>
